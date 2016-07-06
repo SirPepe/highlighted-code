@@ -1,0 +1,26 @@
+{
+  "name": "highlighted-code",
+  "version": "1.0.0",
+  "description": "Highlighted pre elements",
+  "main": "dist/highlighted-code.min.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "uglify-js": "^2.7.0"
+  },
+  "scripts": {
+    "build": "uglifyjs vendor/highlight.pack.js src/highlighted-code.js --compress --mangle --screw-ie8 --output dist/highlighted-code.min.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SirPepe/highlighted-code.git"
+  },
+  "author": "peter@peterkroener.de",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SirPepe/highlighted-code/issues"
+  },
+  "homepage": "https://github.com/SirPepe/highlighted-code#readme"
+}
